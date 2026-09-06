@@ -13,6 +13,7 @@ class MingleApp extends StatelessWidget {
       title: 'Mingles',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
+        useMaterial3: true,
       ),
       home: const HomePage(),
     );
